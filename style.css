@@ -150,6 +150,9 @@ body {
 .margin-left{
     margin-left: 7%;
 }
+.article-margin-left{
+    margin-left: 35% !important;
+}
 
 /* -------------------
 address
