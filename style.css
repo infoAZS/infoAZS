@@ -268,7 +268,10 @@ Licenses & certifications
 }
 
 .contact-same-width {
-    width: 40%;
+    width: 100%;
+}
+.map-width{
+    width: 100%;
 }
 
 .contact-margin-right {
