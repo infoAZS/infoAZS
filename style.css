@@ -252,6 +252,9 @@ Licenses & certifications
     height: 320px !important;
     width: 360px !important;
 }
+.take-center{
+    margin: 0 auto;
+}
 
 /* contact */
 .contact-intro-grid {
