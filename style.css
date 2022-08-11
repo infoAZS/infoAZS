@@ -19,10 +19,12 @@ h6 {
 .navbar {
     font-family: 'Poppins', sans-serif;
 }
-.side-margin{
+
+.side-margin {
     margin: 0% 5%;
 }
-.navbar-brand{
+
+.navbar-brand {
     width: 75% !important;
 }
 
@@ -30,7 +32,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Open Sans', sans-serif;
     /* overflow: hidden; */
-    
+
 }
 
 .header_info_w {
@@ -57,7 +59,8 @@ body {
     text-transform: uppercase;
     margin-bottom: 60px;
 }
-.name-font-s::before{
+
+.name-font-s::before {
     content: '';
     height: 5px;
     width: 92px;
@@ -91,9 +94,10 @@ body {
 /*----------------------
  about
  ----------------------*/
- .about-left-side-margin{
+.about-left-side-margin {
     margin-left: 7%;
- }
+}
+
 .title-heading {
     font-weight: bold;
     font-size: 22px;
@@ -114,9 +118,11 @@ body {
     text-align: justify;
 
 }
-.about-margin{
+
+.about-margin {
     padding-top: 10px;
 }
+
 .info-size {
     font-style: 13px !important;
 }
@@ -129,13 +135,15 @@ body {
     width: 50%;
     margin-left: 5%;
 }
-.width-addres-pera > span {
-   margin: 0;
+
+.width-addres-pera>span {
+    margin: 0;
 }
 
 .about-margin-right {
     margin-right: 5%;
 }
+
 .about-margin-right-portfolio {
     margin-right: 5%;
 }
@@ -147,10 +155,12 @@ body {
 .header_info_about {
     width: 65%;
 }
-.margin-left{
+
+.margin-left {
     margin-left: 7%;
 }
-.article-margin-left{
+
+.article-margin-left {
     margin-left: 35% !important;
 }
 
@@ -255,7 +265,8 @@ Licenses & certifications
     height: 320px !important;
     width: 360px !important;
 }
-.take-center{
+
+.take-center {
     margin: 0 auto;
 }
 
@@ -273,7 +284,8 @@ Licenses & certifications
 .contact-same-width {
     width: 100%;
 }
-.map-width{
+
+.map-width {
     width: 100%;
 }
 
@@ -453,6 +465,7 @@ article....article...article
     .contact-same-width {
         width: 100% !important;
     }
+
     .header-element {
         width: 100%;
         margin-left: 0%;
@@ -462,6 +475,7 @@ article....article...article
     .copyright {
         font-size: 10px !important;
     }
+
     /* .bg-gray{
         background-color: gray !important;
     } */
@@ -473,4 +487,14 @@ article....article...article
 
 
 /* for desktop */
-@media only screen and (min-width:769px) {}
+@media only screen and (max-width:1824px) {
+    .name-font-s::before {
+        content: '';
+        height: 5px;
+        width: 92px;
+        background-color: black;
+        color: black;
+        position: absolute;
+        bottom: 37%;
+    }
+}
