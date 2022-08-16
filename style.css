@@ -358,10 +358,25 @@ article....article...article
     transition: max-height 0.2s ease-out;
 }
 
+.carousel-item{
+    background-color: white !important;
+}
+
 /* media query----media query----media query-media query----media query----media query-----media query----media query */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) and (min-width: 320px) {
 
     /* home */
+    .name-font-s::before {
+        content: '';
+        height: 5px;
+        width: 92px;
+        background-color: black;
+        color: black;
+        position: absolute;
+        bottom: 71%;
+        bottom: -2%;
+        left: 38%;
+    }
 
     .img-position {
         position: inherit;
@@ -413,6 +428,15 @@ article....article...article
         flex-direction: column;
     }
 
+    .gray-color {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-left-side-margin {
+        margin-left: 0%;
+    }
+
     .img-position {
         position: inherit;
         display: block;
@@ -438,7 +462,7 @@ article....article...article
     }
 
     .left-side-margin {
-        margin-left: 45%;
+        margin-left: 0%;
     }
 
     .partner-box {
@@ -471,6 +495,17 @@ article....article...article
         margin-left: 0%;
     }
 
+    /* service */
+    .make-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .responsive-left-m-0 {
+        margin-left: 0% !important;
+    }
+
     /* all footer */
     .copyright {
         font-size: 10px !important;
@@ -483,11 +518,38 @@ article....article...article
 
 
 /* for tablet */
-@media only screen and (min-width:451px) and (max-width: 768px) {}
+@media only screen and (max-width: 768px) and (min-width:481px) {
+
+    .name-font-s::before {
+        content: '';
+        height: 5px;
+        width: 92px;
+        background-color: black;
+        color: black;
+        position: absolute;
+        bottom: 71%;
+    }
+
+    .make-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .gray-color {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
 
 
 /* for desktop */
-@media only screen and (max-width:1824px) {
+@media only screen and (max-width:1824px) and (min-width:769px) {
     .name-font-s::before {
         content: '';
         height: 5px;
@@ -496,5 +558,10 @@ article....article...article
         color: black;
         position: absolute;
         bottom: 37%;
+    }
+
+    .small-screen-view {
+        display: flex;
+        flex-direction: column;
     }
 }
