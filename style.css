@@ -298,11 +298,14 @@ Licenses & certifications
     width: 100%;
     border-radius: 5px;
     height: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 .chat-img {
-    width: 90%;
-    margin-top: 40px;
+    width: 70%;
+    margin-left: 65px;
+    text-align: center;
 }
 
 .ask-me {
@@ -422,6 +425,9 @@ article....article...article
     }
 
     /* about */
+    .margin-top{
+        margin-top: 16%;
+    }
 
     .header-down {
         display: flex;
@@ -488,11 +494,15 @@ article....article...article
 
     .contact-same-width {
         width: 100% !important;
+        margin-bottom: 10%;
     }
 
     .header-element {
         width: 100%;
         margin-left: 0%;
+    }
+    .ask-margin{
+        display: inline-block;
     }
 
     /* service */
