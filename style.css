@@ -280,7 +280,10 @@ Licenses & certifications
 .contact-intro-grid div {
     height: 200px;
 }
-
+.telegram-box{
+    text-decoration: none;
+    color: black;
+}
 .contact-same-width {
     width: 100%;
 }
@@ -515,6 +518,12 @@ article....article...article
     .responsive-left-m-0 {
         margin-left: 0% !important;
     }
+    /* contact */
+    .contact-intro-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+    }
 
     /* all footer */
     .copyright {
@@ -549,6 +558,12 @@ article....article...article
     .gray-color {
         display: flex;
         flex-direction: column;
+    }
+    /* contact */
+    .contact-intro-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
     }
 
 }
