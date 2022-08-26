@@ -590,3 +590,39 @@ article....article...article
         flex-direction: column;
     }
 }
+
+
+.pstn_rltv_for_img{
+    position: relative;
+}
+
+
+/* gift animation */
+
+.gift_img{
+    width: 30%;
+    position: absolute;
+    bottom: 0%; 
+    right: 0%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.gift_img:hover{
+    filter: grayscale(0%);
+}
+.gift_img {
+    margin-left: 780px;
+    margin-top: 550px;
+    animation-name: gift_animation;
+    animation-duration: 2s;
+    animation-iteration-count: 30000;
+  }
+  
+@keyframes gift_animation {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:20px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+  }
